@@ -1,0 +1,12 @@
+// -*- mode: protobuf; c-basic-offset: 4; indent-tabs-mode: nil -*-
+
+syntax = "proto3";
+
+package pagination;
+
+option go_package = "paginationpb";
+
+message Pagination{
+    int32 size = 1;
+    int32 page = 2;
+}
