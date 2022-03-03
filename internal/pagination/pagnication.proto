@@ -9,4 +9,5 @@ option go_package = "github.com/microbun/protobuf/paginationpb";
 message Pagination{
     int64 size = 1;
     int64 page = 2;
+    int64 total =3;
 }
