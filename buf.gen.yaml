@@ -1,6 +1,6 @@
 version: v1
 plugins:
   - name: go
-    opt:
-      - paths=source_relative
-    out: pagninationpb
+    # opt:
+    #   - paths=source_relative
+    out: gen
