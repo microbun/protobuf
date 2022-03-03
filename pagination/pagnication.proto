@@ -4,9 +4,9 @@ syntax = "proto3";
 
 package pagination;
 
-option go_package = "paginationpb";
+option go_package = "github.com/microbun/protobuf/paginationpb";
 
 message Pagination{
-    int32 size = 1;
-    int32 page = 2;
+    int64 size = 1;
+    int64 page = 2;
 }
