@@ -1,0 +1,20 @@
+// -*- mode: protobuf; c-basic-offset: 4; indent-tabs-mode: nil -*-
+
+syntax = "proto3";
+
+package pagination;
+
+// import "google/protobuf/empty.proto";
+// import "google/protobuf/timestamp.proto";
+// import "microbun/protobuf/pagination.proto";
+
+option go_package = "github.com/microbun/protobuf/paginationpb";
+
+
+message Pagination{
+    int64 size = 1;
+    int64 page = 2;
+    int64 total =3;
+    // google.protobuf.Timestamp created_at = 11; // 申请时间 == 创建时间
+    // pagination.Pagination pagination = 4;
+}
